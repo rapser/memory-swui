@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		465AFAD72460CD6C00321D87 /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465AFAD62460CD6C00321D87 /* MemoryItem.swift */; };
+		465AFAD92460CE0100321D87 /* Items.json in Resources */ = {isa = PBXBuildFile; fileRef = 465AFAD82460CE0100321D87 /* Items.json */; };
+		465AFADB2460F41900321D87 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465AFADA2460F41900321D87 /* MemoryViewController.swift */; };
+		465AFADD246104CA00321D87 /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465AFADC246104CA00321D87 /* MemoryDataSource.swift */; };
 		46CE2D8A2460CC10009D9919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE2D892460CC10009D9919 /* AppDelegate.swift */; };
 		46CE2D8C2460CC10009D9919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE2D8B2460CC10009D9919 /* SceneDelegate.swift */; };
 		46CE2D8E2460CC10009D9919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE2D8D2460CC10009D9919 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		465AFAD62460CD6C00321D87 /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
+		465AFAD82460CE0100321D87 /* Items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Items.json; sourceTree = "<group>"; };
+		465AFADA2460F41900321D87 /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		465AFADC246104CA00321D87 /* MemoryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDataSource.swift; sourceTree = "<group>"; };
 		46CE2D862460CC10009D9919 /* memory-swui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "memory-swui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CE2D892460CC10009D9919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46CE2D8B2460CC10009D9919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +67,14 @@
 				46CE2D892460CC10009D9919 /* AppDelegate.swift */,
 				46CE2D8B2460CC10009D9919 /* SceneDelegate.swift */,
 				46CE2D8D2460CC10009D9919 /* ViewController.swift */,
+				465AFADC246104CA00321D87 /* MemoryDataSource.swift */,
 				46CE2D8F2460CC10009D9919 /* Main.storyboard */,
 				46CE2D922460CC13009D9919 /* Assets.xcassets */,
 				46CE2D942460CC13009D9919 /* LaunchScreen.storyboard */,
 				46CE2D972460CC13009D9919 /* Info.plist */,
+				465AFAD62460CD6C00321D87 /* MemoryItem.swift */,
+				465AFAD82460CE0100321D87 /* Items.json */,
+				465AFADA2460F41900321D87 /* MemoryViewController.swift */,
 			);
 			path = "memory-swui";
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				46CE2D962460CC13009D9919 /* LaunchScreen.storyboard in Resources */,
 				46CE2D932460CC13009D9919 /* Assets.xcassets in Resources */,
+				465AFAD92460CE0100321D87 /* Items.json in Resources */,
 				46CE2D912460CC10009D9919 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				46CE2D8E2460CC10009D9919 /* ViewController.swift in Sources */,
+				465AFADD246104CA00321D87 /* MemoryDataSource.swift in Sources */,
 				46CE2D8A2460CC10009D9919 /* AppDelegate.swift in Sources */,
 				46CE2D8C2460CC10009D9919 /* SceneDelegate.swift in Sources */,
+				465AFAD72460CD6C00321D87 /* MemoryItem.swift in Sources */,
+				465AFADB2460F41900321D87 /* MemoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
